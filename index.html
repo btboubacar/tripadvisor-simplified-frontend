@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
+    <script
+      src="https://kit.fontawesome.com/7cc3bb9981.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <title>Tripadvisor-Tourisme à Paris 2023</title>
+  </head>
+  <body>
+    <!-------------------------------------------  -->
+    <!-------------------------------------------  -->
+    <!-- ----------------- HEADER----------------- -->
+    <!-------------------------------------------  -->
+    <!-------------------------------------------  -->
+    <header>
+      <div class="container">
+        <div class="visibleXs">
+          <i class="fa-solid fa-bars fa-lg"></i>
+        </div>
+        <!-- <a href="#"> -->
+        <div class="header-img">
+          <img src="./assets/img/logo.svg" alt="Logo tripadvisor" />
+        </div>
+        <!-- </a> -->
+
+        <div class="searchbar">
+          &nbsp;&nbsp;
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <form>
+            <input type="text" name="search" id="search" class="form" />
+          </form>
+        </div>
+        <nav>
+          <a href="#"
+            ><i class="fa-solid fa-pen fa-lg" id="icon"></i><span>Avis</span></a
+          >
+          <a href="#"
+            ><i class="fa-regular fa-heart fa-lg"></i><span>Voyages</span></a
+          >
+          <a href="#"
+            ><i class="fa-regular fa-bell fa-lg"></i><span>Alertes</span></a
+          >
+          <div><button id="connect">Connectez-vous</button></div>
+          <i class="fa-solid fa-magnifying-glass visibleXs"></i>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping fa-lg"></i
+            ><span>Panier</span></a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <!-------------------------------------------  -->
+    <!-------------------------------------------  -->
+    <!-- ----------------- MAIN----------------- -->
+    <!-------------------------------------------  -->
+    <!-------------------------------------------  -->
+    <main>
+      <div class="container">
+        <h1><span>Explorez</span>&nbsp;<span>Paris</span></h1>
+        <p>
+          Les revenus influencent le choix des expériences présentées sur cette
+          page : <a href="">en savoir plus.</a>
+        </p>
+
+        <div class="menu">
+          <div><span>Hôtels</span> <i class="fa-solid fa-bed"></i></div>
+          <div>
+            <span>Activités</span>
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+          </div>
+          <div>
+            <span>Location de vacances</span><i class="fa-solid fa-house"></i>
+          </div>
+          <div>
+            <span>Restaurants</span><i class="fa-solid fa-utensils"></i>
+          </div>
+          <div>
+            <span>Forums de voyage</span><i class="fa-solid fa-outdent"></i>
+          </div>
+          <div class="visibleXs">
+            <span>Vols</span><i class="fa-solid fa-plane"></i>
+          </div>
+          <div class="visibleXs">
+            <span>Croisères</span><i class="fa-solid fa-ship"></i>
+          </div>
+          <div><span>Plus</span><i class="fa-solid fa-ellipsis"></i></div>
+        </div>
+
+        <!-- **** -->
+        <section class="main-image">
+          <div>
+            <img
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c2/86/0e/caption.jpg?w=700&h=500&s=1"
+              alt="Paris quai de seine"
+            />
+          </div>
+          <div class="div2">
+            <div>
+              <img
+                src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4b/58/8c/caption.jpg?w=500&h=300&s=1&cx=2441&cy=1123&chk=v1_140b80ad3746180d2cb8"
+                alt="Couple motocycliste"
+              />
+            </div>
+            <div>
+              <img
+                src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4b/59/86/caption.jpg?w=500&h=300&s=1"
+                alt="Tour Eifel"
+              />
+            </div>
+          </div>
+        </section>
+
+        <nav class="breadcrumb-bloc">
+          <div>
+            <a href="#">Europe</a>
+            &nbsp;>&nbsp;
+            <a href="#">France</a>
+            &nbsp;>&nbsp;
+            <a href="#">Île-de-France</a>
+            &nbsp;>&nbsp;
+            <a href="#">Paris</a>&nbsp;
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div><span>Visiter Paris</span></div>
+        </nav>
+
+        <!-- **** -->
+        <section class="a-propos">
+          <h2>À propos de Paris</h2>
+          <div class="row">
+            <div class="column">
+              On dit que Paris est la plus belle ville du monde. Et elle a
+              quelque chose de magique ! Comment résister aux charmes des
+              immeubles haussmanniens en pierre et fer forgé, des trottoirs
+              parsemés de bistrot pittoresques et des rives de la Seine ? Mais
+              Paris, c’est aussi la cuisine : les fins gourmets apprécieront les
+              classiques croissants dorés au beurre et les plats traditionnels
+              comme le coq au vin. Mais les nombreux restaurants de cuisine
+              internationale inventive font aujourd’hui la part belle à la
+              nouvelle scène culinaire française qui mélange les saveurs (les
+              falafels de la rue des Rosiers sont tout simplement à tomber).
+              Laissez-vous aller à la flânerie dans les ruelles cachées, dans
+              les musées renommés et les boutiques spécialisées. À la nuit
+              tombée, rendez-vous sur le Champ-de-Mars pour profiter d'une vue
+              imprenable sur les illuminations de la tour Eiffel.
+            </div>
+            <div class="column">
+              <div></div>
+              <div>
+                <img src="./assets/img/map.png" alt="carte visite" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <h1 class="h1-partenaires">De nos partenaires : FuzeTea</h1>
+
+      <!-- **** -->
+      <div class="block-partenaires">
+        <div class="bk-img1">
+          <img
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/d7/b6/86/caption.jpg?w=1200&h=1200&s=1&cx=3426&cy=2543&chk=v1_a69632963d2ab2a067b8"
+            alt=""
+          />
+        </div>
+
+        <div class="bk-img2">
+          <div>
+            <img
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/d2/27/ad/caption.jpg?w=1200&h=1200&s=1&cx=2284&cy=1695&chk=v1_e9357303bfc1a51bdf3b"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/d2/28/0d/caption.jpg?w=1200&h=1200&s=1&cx=2284&cy=1695&chk=v1_781c27d95e96c38c8fb1"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="bk-img3">
+          <img
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/d2/28/62/caption.jpg?w=1200&h=1200&s=1&cx=3426&cy=2542&chk=v1_d62841512aaefd458109"
+            alt=""
+          />
+        </div>
+        <div class="bk-img4">
+          <div class="bk-img4-childDiv1">
+            <div>
+              <img
+                src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/d2/29/51/caption.jpg?w=1200&h=1200&s=1&cx=2284&cy=1695&chk=v1_a900cd835584ed06e065"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/d2/2a/5f/caption.jpg?w=1200&h=1200&s=1&cx=2284&cy=1695&chk=v1_65a6536c2805a70b2cb2"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="bk-img4-childDiv2">
+            <img
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/d7/b6/de/caption.jpg?w=1200&h=1200&s=1&cx=3481&cy=412&chk=v1_433f0f9c7a58c87827e1"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="add-breaks"></div>
+
+      <!--  ----------------------------------------- -->
+      <!-- *------------ les immanquables------------ -->
+      <!--  ----------------------------------------- -->
+
+      <!-- <section> -->
+      <div class="container">
+        <h2>Paris : Les immanquables</h2>
+
+        <div class="immanquables">
+          <div class="text-immanq">
+            <h3>Se Divertir</h3>
+            <p>
+              Des lieux à voir, des rues à explorer et des expériences
+              emblématiques à Paris.
+            </p>
+            <br />
+            <a href="#">Tout afficher</a>
+          </div>
+
+          <div class="caroussel">
+            <div>
+              <div>
+                <img
+                  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/9e/7f/9d/eiffeltoren.jpg?w=400&h=300&s=1"
+                  alt="Tour Eiffel"
+                />
+              </div>
+              <div class="circle-container2">
+                <div class="circle2"></div>
+                <i class="fa-regular fa-heart" id="heart1"></i>
+              </div>
+
+              <div class="logo-image">
+                <img
+                  src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg"
+                  alt="logo"
+                />
+              </div>
+
+              <h4>La Tour Eiffel</h4>
+              <div class="circle-container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p>&nbsp;142161</p>
+              </div>
+              <p class="text-comment">
+                Tours et plateformes d'observation, Monuments & Points d'intérêt
+              </p>
+            </div>
+            <div>
+              <div>
+                <img
+                  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/4f/70/dc/cour-napoleon-et-pyramide.jpg?w=400&h=300&s=1"
+                  alt="musée du louvre"
+                />
+              </div>
+              <div class="circle-container2">
+                <div class="circle2"></div>
+                <i class="fa-regular fa-heart" id="heart1"></i>
+              </div>
+
+              <div class="logo-image">
+                <img
+                  src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg"
+                  alt="logo"
+                />
+              </div>
+
+              <h4>Musée du Louvre</h4>
+              <div class="circle-container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p>&nbsp;102534</p>
+              </div>
+              <p class="text-comment">Bâtiments architecturaux, Musées d'art</p>
+            </div>
+            <div>
+              <div>
+                <img
+                  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/f0/d0/9b/arc-de-triomphe-at-night.jpg?w=400&h=300&s=1"
+                  alt="arc de triomphe"
+                />
+              </div>
+              <div class="circle-container2">
+                <div class="circle2"></div>
+                <i class="fa-regular fa-heart" id="heart1"></i>
+              </div>
+
+              <div class="logo-image">
+                <img
+                  src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg"
+                  alt="logo"
+                />
+              </div>
+
+              <h4>Arc de Triomphe</h4>
+              <div class="circle-container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p>&nbsp;45903</p>
+              </div>
+              <p class="text-comment">
+                Bâtiments architecturaux, Sites historiques
+              </p>
+            </div>
+
+            <!-- ------------- reste se divertir  -->
+
+            <div>
+              <div>
+                <img
+                  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ec/32/31/vue-de-la-cour-d-honneur.jpg?w=400&h=300&s=1"
+                  alt="Musée Rodin Paris VII"
+                />
+              </div>
+              <div class="circle-container2">
+                <div class="circle2"></div>
+                <i class="fa-regular fa-heart" id="heart1"></i>
+              </div>
+
+              <div class="logo-image">
+                <img
+                  src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg"
+                  alt="logo"
+                />
+              </div>
+
+              <h4>Musée Rodin Paris VII</h4>
+              <div class="circle-container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p>&nbsp;12691</p>
+              </div>
+              <p class="text-comment">Musées spécialisés</p>
+            </div>
+            <div>
+              <div>
+                <img
+                  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/37/b1/79/the-bookstore.jpg?w=400&h=-1&s=1"
+                  alt="Librairie"
+                />
+              </div>
+              <div class="circle-container2">
+                <div class="circle2"></div>
+                <i class="fa-regular fa-heart" id="heart1"></i>
+              </div>
+
+              <div class="logo-image">
+                <img
+                  src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg"
+                  alt="logo"
+                />
+              </div>
+
+              <h4>Librairie Shakespeare and Company Paris V</h4>
+              <div class="circle-container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p>&nbsp;3996</p>
+              </div>
+              <p class="text-comment">Bibliothèques, Grands magasins</p>
+            </div>
+            <div>
+              <div>
+                <img
+                  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/3e/05/c9/leider-durch-das-feuer.jpg?w=400&h=-1&s=1"
+                  alt="Cathédrale Notre-Dame de Paris"
+                />
+              </div>
+              <div class="circle-container2">
+                <div class="circle2"></div>
+                <i class="fa-regular fa-heart" id="heart1"></i>
+              </div>
+
+              <div class="logo-image">
+                <img
+                  src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg"
+                  alt="logo"
+                />
+              </div>
+
+              <h4>Cathédrale Notre-Dame de Paris</h4>
+              <div class="circle-container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p>&nbsp;71607</p>
+              </div>
+              <p class="text-comment">
+                Bâtiments architecturaux, Sites historiques
+              </p>
+            </div>
+
+            <!-- ------------------------------ -->
+          </div>
+        </div>
+      </div>
+
+      <!-- </section> -->
+
+      <!-- ----------------------------------->
+      <!-- **les Se reposer -->
+      <!-- ----------------------------------->
+      <div class="add-breaks"></div>
+      <!-- ************** -->
+
+      <!-- *** -->
+      <!-- <section> -->
+
+      <div class="container">
+        <div class="immanquables">
+          <div class="text-immanq">
+            <h3>Se reposer</h3>
+            <p>
+              Des lieux à voir, des rues à explorer et des expériences
+              emblématiques à Paris.
+            </p>
+            <br />
+            <a href="#">Tout afficher</a>
+          </div>
+          <div class="caroussel">
+            <div>
+              <div>
+                <img
+                  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/0f/02/d0/junior-suite.jpg?w=400&h=300&s=1"
+                  alt="Grand Hotel du Palais Royal"
+                />
+              </div>
+              <div class="circle-container2">
+                <div class="circle2"></div>
+                <i class="fa-regular fa-heart" id="heart1"></i>
+              </div>
+
+              <div class="logo-image">
+                <img
+                  src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg"
+                  alt="logo"
+                />
+              </div>
+
+              <h4>Grand Hotel du Palais Royal</h4>
+              <div class="circle-container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p>&nbsp;142161</p>
+              </div>
+              <p class="text-comment"></p>
+            </div>
+            <div>
+              <div>
+                <img
+                  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e7/72/45/superior-room.jpg?w=400&h=300&s=1"
+                  alt="Hotel Esprit Saint Germain"
+                />
+              </div>
+              <div class="circle-container2">
+                <div class="circle2"></div>
+                <i class="fa-regular fa-heart" id="heart1"></i>
+              </div>
+
+              <div class="logo-image">
+                <img
+                  src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg"
+                  alt="logo"
+                />
+              </div>
+
+              <h4>Hotel Esprit Saint Germain</h4>
+              <div class="circle-container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p>&nbsp;102534</p>
+              </div>
+              <p class="text-comment"></p>
+            </div>
+            <div>
+              <div>
+                <img
+                  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/f8/9d/14/studio-fpr-3-persons.jpg?w=400&h=300&s=1"
+                  alt="Cadet Residence"
+                />
+              </div>
+              <div class="circle-container2">
+                <div class="circle2"></div>
+                <i class="fa-regular fa-heart" id="heart1"></i>
+              </div>
+
+              <div class="logo-image">
+                <img
+                  src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg"
+                  alt="logo"
+                />
+              </div>
+
+              <h4>Cadet Residence</h4>
+              <div class="circle-container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p>&nbsp;45903</p>
+              </div>
+              <p class="text-comment"></p>
+            </div>
+
+            <!-- ---------------------- -->
+
+            <div>
+              <div>
+                <img
+                  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/0f/02/d0/junior-suite.jpg?w=400&h=300&s=1"
+                  alt="Grand Hotel du Palais Royal"
+                />
+              </div>
+              <div class="circle-container2">
+                <div class="circle2"></div>
+                <i class="fa-regular fa-heart" id="heart1"></i>
+              </div>
+
+              <div class="logo-image">
+                <img
+                  src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg"
+                  alt="logo"
+                />
+              </div>
+
+              <h4>Grand Hotel du Palais Royal</h4>
+              <div class="circle-container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p>&nbsp;142161</p>
+              </div>
+              <p class="text-comment"></p>
+            </div>
+            <div>
+              <div>
+                <img
+                  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e7/72/45/superior-room.jpg?w=400&h=300&s=1"
+                  alt="Hotel Esprit Saint Germain"
+                />
+              </div>
+              <div class="circle-container2">
+                <div class="circle2"></div>
+                <i class="fa-regular fa-heart" id="heart1"></i>
+              </div>
+
+              <div class="logo-image">
+                <img
+                  src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg"
+                  alt="logo"
+                />
+              </div>
+
+              <h4>Hotel Esprit Saint Germain</h4>
+              <div class="circle-container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p>&nbsp;102534</p>
+              </div>
+              <p class="text-comment"></p>
+            </div>
+            <div>
+              <div>
+                <img
+                  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/f8/9d/14/studio-fpr-3-persons.jpg?w=400&h=300&s=1"
+                  alt="Cadet Residence"
+                />
+              </div>
+              <div class="circle-container2">
+                <div class="circle2"></div>
+                <i class="fa-regular fa-heart" id="heart1"></i>
+              </div>
+
+              <div class="logo-image">
+                <img
+                  src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg"
+                  alt="logo"
+                />
+              </div>
+
+              <h4>Cadet Residence</h4>
+              <div class="circle-container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <p>&nbsp;45903</p>
+              </div>
+              <p class="text-comment">
+                Bâtiments architecturaux, Sites historiques
+              </p>
+            </div>
+            <!-- ---------------------- -->
+          </div>
+        </div>
+      </div>
+      <!-- </section> -->
+
+      <!-- ------------------------------->
+      <div class="add-breaks"></div>
+      <!-- ------------------------------->
+
+      <!-------------------------------------------  -->
+      <!-- ------------Add form contact modal ------ -->
+      <!-------------------------------------------  -->
+
+      <div class="modal">
+        <div class="form-container">
+          <i class="fa-solid fa-xmark fa-2xl btn-close"></i>
+          <h1>Formulaire de contact</h1>
+          <form class="form">
+            <label for="firstName">
+              <input
+                type="text"
+                name="fistName"
+                id="firstName"
+                placeholder="Prénom"
+                required
+              />
+            </label>
+
+            <label for="lastName">
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Nom"
+                required
+              />
+            </label>
+
+            <label for="email">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+            </label>
+
+            <label for="subject">
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Sujet"
+              />
+            </label>
+
+            <label for="email">
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Votre message ici ..."
+                required
+              ></textarea>
+            </label>
+
+            <button type="submit" class="btn-submit">Envoyer le message</button>
+            <textarea name="response" id="response"></textarea>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-------------------------------------------  -->
+    <!-------------------------------------------  -->
+    <!-- ----------------- FOOTER----------------- -->
+    <!-------------------------------------------  -->
+    <!-------------------------------------------  -->
+    <footer>
+      <div class="footer-class">
+        <div>
+          <img
+            src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg"
+            alt="logo-footer"
+          />
+        </div>
+        <p>
+          Made at
+          <span
+            ><a
+              href="https://www.lereacteur.io"
+              target="_blank"
+              title="LeReacteur website"
+              >LeReacteur</a
+            ></span
+          >
+          by
+          <span>
+            <a
+              href="https://github.com/btboubacar"
+              target="_blank"
+              title="My github page"
+              >B.T.</a
+            ></span
+          >
+          - 2023
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
